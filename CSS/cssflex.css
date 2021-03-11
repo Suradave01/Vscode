@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    /*justify-content: space-around;*/
+    align-items: baseline;                   /*ใช้กับ column*/
+}
+.flex-item-1,.flex-item-2,.flex-item-3,.flex-item-4,.flex-item-5{
+    width: 150px;
+    height: 150px;
+    background: #cccccc;
+    margin: 10px;
+}
+ 
