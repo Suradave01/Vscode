@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const name = ['John', 'Jane', 'Joe'];
+        const name2 = ['Jinny', 'Jacky']
+        const Allname = [...name,...name2];
+
+        console.log(...Allname);
+
+        const info = {
+            name: "John",
+            age: 30,
+            married: false
+        }
+        const newInfo = {
+            car: "lambo",
+            color: "red"
+        }
+        const allinfo = {...info,...newInfo}
+        console.log(allinfo);
+
+        const mergedobj = (...obj) => ( {...obj});
+        console.log(mergedobj(info, newInfo));
+
+    </script>
+    
+</body>
+</html>

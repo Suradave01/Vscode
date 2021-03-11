@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const point = [20, 30, 40];
+
+        // const val1 = point(0);
+        // const val2 = point(1);
+        // const val3 = point(2);
+        
+        const [val1, val2, val3] = point; // distructuring
+
+        console.log(val1, val2, val3);
+
+        const car = {
+            type: 'Honda',
+            color: 'red',
+            model: '2020'
+        }
+
+        const [type, color, model] = car;  // distructuring
+
+        // const type = car.type;
+        // const color = car.color;
+        // const model = car.model;
+
+        console.log(type, color, model);
+
+    </script>
+    
+</body>
+</html>
