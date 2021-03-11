@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    height: 1300px;
+}
+.bacall {
+    background: linear-gradient(90deg,rgb(88, 113, 255),rgb(31, 240, 255));
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.bactop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.bactop .logo h1 {
+    color: white;
+}
+.bactop .menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.menu a {
+    text-shadow: black 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid white;
+}
+
+.barfoot {
+    overflow: hidden;
+    top: 300px;
+    left: 200px;
+    width: 1450px;
+    height: 900px;
+    position: absolute;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+    border-radius: 30px;
+    background-color: white;
+}
+
+.barfoot .profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile .picture {
+    height: 800px;
+    
+}
+.profile img {
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px black;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.profile .contacts {
+    width: 500px;
+    height: 800px;
+}
+
+.contacts h5:first-child {
+    margin-top: 120px;
+    font-size: 20px;
+    color: grey;
+}
+
+.contacts h1:nth-child(2) {
+    margin-top: 20px;
+    font-size: 55px;
+}
+
+.contacts h1:nth-child(3) {
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.contacts h5:nth-child(4) {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.contacts blockquote {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 430px;
+    color: rgb(112, 109, 109);
+}
+
+.profile .address {
+    margin-top: 45px;
+    height: 200px;
+}
+
+.address .calender {
+    display: flex;
+    align-items: center;
+}
+
+.address .calender i{
+    font-size: 25px;
+    color: rgb(141, 43, 253);
+}
+
+.address .calender h5 {
+    margin-left: 31px;
+    font-size: 20px;
+}
+
+.address .phone {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.address .phone i{
+    font-size: 25px;
+    color: rgb(141, 43, 253);
+}
+
+.address .phone h5 {
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.address .email {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.address .email i{
+    font-size: 25px;
+    color: rgb(141, 43, 253);
+}
+
+.address .email h5 {
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.address .home {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.address .home i{
+    font-size: 25px;
+    color: rgb(141, 43, 253);
+}
+
+.address .home h5 {
+    margin-left: 26px;
+    font-size: 20px;
+}
+
+.contacts .logo{
+    font-size: 60px;
+}
+
+.contacts .logo i {
+    margin-right: 10px;
+    color: rgb(206, 206, 206);
+}
+
+.contacts .logo i:hover:first-child {
+    color: rgb(78, 78, 202);
+    transition: 0.6s;
+}
+
+.contacts .logo i:hover:nth-child(2) {
+    color: rgb(46, 200, 247);
+}
+
+.contacts .logo i:hover:nth-child(3) {
+    background: linear-gradient(210deg,rgb(163, 3, 226),rgb(255, 169, 70));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
