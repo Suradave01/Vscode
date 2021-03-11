@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.picture {
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    height: 800px;
+}
+
+.picture img {
+    width: 85%;
+}
