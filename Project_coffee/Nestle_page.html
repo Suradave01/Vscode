@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Mate Original page</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container-menubar">
+            <nav class="menubar">
+                <ul>
+                    <li><a href="Home_page.html">Home</a></li>
+                    <li><a href="Shop_page.html">Shop</a></li>
+                    <li><a href="Coffee_page.html">Recipe</a></li>
+                    <li>Contact</li>
+                    <li><i class="fas fa-shopping-basket"></i></li>
+                    <li>
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                            <input type="text">
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="img/Icon simple-coffeescript.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="Nestle-page">
+            <img src="img/shop/Coffee mate original.png" alt="">
+            <div class="Nestle-detail">
+                <div class="icon-Nestle">
+                    <i class="far fa-arrow-alt-circle-left"></i>
+                    <i class="far fa-arrow-alt-circle-right"></i>
+                    <img src="img/shop/Group 46.png" alt="">
+                </div>
+                <div class="name">
+                    <p>NESTLE</p>
+                    <p>Coffee mate Original</p>
+                    <hr>
+                </div>
+                <p class="price">฿ 85</p>
+                <div class="slot">
+                    <button onclick="Minus()">-</button>
+                    <p id="value-slot"></p>
+                    <button onclick="PlusFunction()">+</button>
+                </div>
+                <div class="Add-basket">
+                    <p>Add to Basket</p>
+                </div>
+                <div class="share">
+                    <p>SHARE:</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <blockquote>DESCRIPTION | REVIEWS (3)</blockquote>
+            </div>
+        </div>
+    </main>
+
+    <script>
+
+        let valueslot = document.getElementById('value-slot');
+        valueslot = 1;
+        document.getElementById('value-slot').innerHTML = valueslot;
+
+        function PlusFunction() {
+            valueslot++
+            document.getElementById('value-slot').innerHTML = valueslot;
+        }
+
+        let Minus = () => {
+            if(valueslot > 1) {
+                valueslot--
+                document.getElementById('value-slot').innerHTML = valueslot;
+            }
+        }
+        
+        console.log(valueslot);
+
+    </script>
+</body>
+</html>

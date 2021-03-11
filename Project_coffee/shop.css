@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FCF9F0;
+}
+/* header */
+.container-menubar {
+    width: 100%;
+    margin: 0 auto;
+}
+.menubar {
+    height: 156px;
+    width: 100%;
+}
+
+.menubar ul {
+    display: flex;
+    list-style: none;
+    width: 1100px;
+    height: 156px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 750px;
+}
+
+.menubar ul li {
+    font-size: 33px;
+    color: #A3A1A0;
+}
+
+.menubar ul li:hover {
+    color: #FCD5CD;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.menubar li a {
+    text-decoration: none;
+    color: #A3A1A0;
+}
+
+.menubar li a:hover {
+    color: #FCD5CD;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.menubar ul li:nth-child(5) i {
+    font-size: 60px;
+    margin-top: -8px;
+}
+
+.menubar ul li .search {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 247px;
+    height: 51px;
+}
+
+.menubar ul li .search:hover {
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.5s;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+.search i {
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+.search input {
+    font-size: 20px;
+    width: 89%;
+    outline: none;
+    border: none;
+}
+
+header hr {
+    border: 2px solid #707070;
+    width: 100%;
+}
+
+.logo img {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 100px;
+}
+/* header */
+/* Topic Shop */
+.shop-page {
+    width: 1619px;
+    height: 1060px;
+    margin: 0 auto;
+}
+
+.topic-shop {
+    margin-top: 88px;
+}
+
+.topic-shop p:first-child {
+    color: #000000;
+    font-size: 85px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.topic-shop p:last-child {
+    color: #B2AFAE;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+/* Topic Shop */
+/* Item shop */
+.item-shop {
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: 372px 372px 372px 372px;
+    grid-template-rows: 355px 355px;
+    row-gap: 72px;
+    column-gap: 47px;
+}
+
+.item-shop a {
+    text-decoration: none;
+}
+
+.item-1 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-1:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-1 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-1 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-1 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-2 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-2:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-2 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-2 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-2 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-3 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-3:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-3 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-3 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-3 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-4 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-4:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-4 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-4 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-4 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-5 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-5:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-5 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-5 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-5 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-6 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-6:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-6 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-6 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-6 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-7 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-7:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-7 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-7 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-7 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.item-8 {
+    width: 372px;
+    height: 355px;
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 1px 1px 5px rgb(218, 201, 201);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.item-8:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.item-8 .name-price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.item-8 .name-price .name {
+    width: 200px;
+    text-align: start;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.item-8 .name-price .price {
+    color: #707070;
+    font-size: 25px;
+    padding-top: 15px;
+}
+/* Item shop */
+/* Coffee mate page */
+.Nestle-page {
+    height: 970px;
+}
+.Nestle-page img:first-child {
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    top: 240px;
+    left: 200px;
+}
+
+.Nestle-detail {
+    position: absolute;
+    width: 680px;
+    height: 840px;
+    background-color: #FFFFFF;
+    top: 200px;
+    right: 240px;
+    box-shadow: 1px 1px 2px rgb(177, 172, 172);
+}
+
+.icon-Nestle {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.icon-Nestle i {
+    color: #CDCDCD;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.icon-Nestle i:hover {
+    cursor: pointer;
+    color: gray;
+    transition: 0.6s;
+}
+
+.icon-Nestle img {
+    width: 267px;
+    height: 45px;
+    margin-left: 200px;
+}
+
+.Nestle-detail .name p:first-child {
+    color: #000000;
+    font-size: 71px;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.Nestle-detail .name p:nth-child(2) {
+    color: #A3A1A0;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+.Nestle-detail .name hr {
+    margin-left: 40px;
+    border: 1px solid #707070;
+    width: 593px;
+    margin-top: 20px;
+}
+
+.Nestle-detail .price {
+    color: #000000;
+    font-size: 92px;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.Nestle-detail .slot {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 242px;
+    height: 61px;
+    border: 1px solid #707070;
+    display: grid;
+    grid-template-columns: auto 120px auto;
+}
+
+
+
+.slot p:nth-child(2) {
+    color: #000000;
+    padding-top: 10px;
+    font-size: 35px;
+    text-align: center;
+    border-right: 1px solid #707070;
+    background-color: #F5F4F4;
+    font-family: sans-serif;
+}
+
+.slot button{
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.Nestle-detail .Add-basket {
+    margin-left: 40px;
+    width: 297px;
+    height: 80px;
+    background-color: #df4242;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.Nestle-detail .Add-basket:hover {
+    cursor: pointer;
+    background-color: #fa844d;
+    transition: 0.8s;
+    border-radius: 30px;
+}
+
+.Nestle-detail .share {
+    font-size: 23px;
+    color: #979696;
+    display: flex;
+    width: 185px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.share i {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.share i:nth-child(2):hover {
+    cursor: pointer;
+    color: blue;
+    transition: 0.6s;
+    font-size: 40px;
+}
+
+.share i:nth-child(3):hover {
+    cursor: pointer;
+    transition: 0.6s;
+    font-size: 40px;
+    background: -webkit-linear-gradient(21deg, rgba(255,145,0,1) 0%, rgba(153,28,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.share i:last-child:hover {
+    cursor: pointer;
+    color: lightskyblue;
+    font-size: 40px;
+    transition: 0.6s;
+}
+
+.Nestle-detail blockquote {
+    font-size: 33px;
+    color: #000000;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+/* Coffee mate page */
+
