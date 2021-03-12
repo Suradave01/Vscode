@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px auto;
+    width: 500px;
+    height: 658px;
+    background: rgb(39, 73, 112);
+}
+.RegisterForm {
+    background-color: #fff;
+    width: 800px;
+    height: 900px;
+    margin-top: -160px;
+    margin-left: -100px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.RegisterForm h1 {
+    font-size: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: -10px;
+}
+
+.RegisterForm .name {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.name input {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(180, 177, 177);
+}
+
+.name input:hover {
+    border: 3px solid lightskyblue;
+    transition: 0.7s;
+}
+
+.name h2 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.little-name {
+    display: flex;
+    color: rgb(134, 133, 133);
+    margin-left: 160px;
+}
+
+.little-name p {
+    padding-right: 240px;
+}
+
+.gender {
+    display: flex;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 20px;
+}
+
+.gender .Gender {
+    margin-top: 30px;
+    transform: scale(2);
+    margin-left: 30px;
+}
+
+.gender i {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.gender i:nth-child(3) {
+    color: rgb(27, 167, 233);
+}
+
+.gender i:nth-child(5) {
+    color: rgb(241, 134, 152);
+}
+
+.birthday {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.birthday #birthday {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.email {
+    padding-left: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    display: flex;
+    align-items: center;
+}
+
+.email input {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+}
+
+.email input:hover {
+    border: 3px solid lightskyblue;
+    transition: 0.7s;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 20px;
+}
+
+.username input {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+}
+
+.password1 {
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 20px;
+}
+
+.password1 input {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+}
+
+.password2 {
+    display: flex;
+    align-items: center;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 20px;
+}
+
+.password2 input {
+    font-family: 'Akaya Telivigala', cursive;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+}
+
+#Regis {
+    position: absolute;
+    left: 700px;
+    bottom: 100px;
+    background: rgb(44, 172, 247);
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    width: 250px;
+    height: 70px;
+    border-radius: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+#Regis:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    background: rgb(11, 84, 133);
+}
+
+#Reset {
+    position: absolute;
+    left: 1020px;
+    bottom: 100px;
+    background: rgb(19, 18, 18);
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    width: 250px;
+    height: 70px;
+    border-radius: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+}
+
+#Reset:hover {
+    border: 1px solid black;
+    transition: 0.6s;
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.back-button:hover {
+    transition: 0.6s;
+    background-color: rgb(11, 84, 133);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="stylesheet" href="Register.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+	
+	<div class="RegisterForm">
+		<h1>Register</h1>
+		<span id="errormsg"></span> <br>
+		<div class="name">
+			<h2>Name :</h2>
+			<input type="text" name="firstname" id="firstname" required>
+			<input type="text" name="lastname" id="lastname" >
+		</div>
+		<div class="little-name">
+			<p>Firstname</p>
+			<p>Lastname</p>
+		</div>
+		<div class="gender">
+			<h2>Gender :</h2>
+			<input class="Gender" type="radio" name="gender" value="male" checked>
+			<i class="fas fa-male"></i>
+			<input class="Gender" type="radio" name="gender" value="female" >
+			<i class="fas fa-female"></i>
+		</div>
+		<br>
+		<div class="birthday">
+			<h2>Birthday :</h2>
+			<input id="birthday" type="date" name="bday" value="" >
+		</div>
+		<br>
+		<div class="email">
+			<h2>Email :</h2>
+			<input id="email" type="email" name="email" >
+		</div>	
+		<br>
+		<div class="username">
+			<h2>Username :</h2>
+			<input id="username" type="text" name="username" >
+		</div>
+		<br>
+		<div class="password1">
+			<h2>Password :</h2>
+			<input id="password" type="password" name="password" required>
+		</div>
+		<div class="password2">
+			<h2>Retype Password :</h2>
+			<input id="repassword" type="password"  required>
+		</div>
+		<button  id="Regis" " value="Register" >Register
+		<button  id="Reset" " value="Reset">Reset
+	</div>
+
+	<div class="back-button">
+		<i class="far fa-hand-point-left">
+	</div>
+	
+   
+	
+
+    <script src="register.js"></script>
+    
+</body>
+</html>
