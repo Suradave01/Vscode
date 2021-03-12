@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Game</title>
+    <link rel="stylesheet" href="square.css">
+</head>
+<body>
+
+    <p>ใส่จำนวน Square</p>
+    <input type="text" name="numbox" id="numbox">
+    <p>เลือกสี</p>
+    <select name="color" id = "color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
+    <button id="start">Start</button>
+    <div id="timerClock">
+        <p>Timer</p> 
+        <div id="clock"></div>
+    </div>
+
+    
+    <div id="game-container">
+        <div id="game-layer"></div>
+    </div>
+
+    <div class="win">
+        <h1>You win!!</h1>
+    </div>
+
+    <div class="lose">
+        <h1>You lose!!</h1>
+    </div>
+
+    <script src="Square.js"></script>
+    
+
+</body>
+</html>
